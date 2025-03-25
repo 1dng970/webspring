@@ -1,0 +1,18 @@
+create table macbook_member(
+midx int unsigned auto_increment,
+mid varchar(100) not null,
+mname varchar(100) not null,
+memail varchar(100) not null,
+primary key(midx),
+unique (mid)
+);
+
+select * from macbook_clas where midx=3;
+
+insert into macbook_member value('0','hong','È«±æµ¿','hong@nate.com');
+insert into macbook_member value('0','gilldong','È«±æµ¿','gil@nate.com');
+insert into macbook_member value('0','kim','±èÀ¯½Å','kim@nate.com');
+insert into macbook_member value('0','han','ÇÑ¼ºº¹','han@nate.com');
+
+
+select * from macbook_member;
