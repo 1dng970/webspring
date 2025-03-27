@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- ERP,MRP,CMS,EPS,IOT,WMS  -->
+<title>상담신청(CMS)페이지</title>
+</head>
+<body>
+<form id="frm" method="post"  action="./cmsok.do" onsubmit="return gopage">
+제목 : <input type="text" name="csubject"><br>
+상담자명 : <input type="text" name="cuser">
+상담목적 :
+<input type="checkbox" name="cate" value="cms1">심리상담
+<input type="checkbox" name="cate" value="cms2">학교생활
+<input type="checkbox" name="cate" value="cms3">가정
+<input type="checkbox" name="cate" value="cms4">학업 및 진료
+<input type="checkbox" name="cate" value="cms5">대인관계
+<br>
+<button type="submit" >상담신청</button>
+<!--<button type="button" onclick="gopage">상담신청</button>  -->
+</form>
+
+</body>
+<script>
+/*()차이 : 있으면 매개변수 있이 사용할수 잇다는의미이다 */
+function gopage() {//조건문 : 한개라도 체크여부 확인
+	
+	
+	
+	return true;
+}
+
+</script>
+
+
+</html>
