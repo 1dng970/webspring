@@ -27,3 +27,6 @@ primary key(bidx)
 
 
 
+select * from macbook_banner;
+
+
